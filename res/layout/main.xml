@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_weight="0.5">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H"
+                    android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:layout_weight="0.5"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/H" android:inputType="numberDecimal" android:layout_weight="0.5"
+                    android:selectAllOnFocus="true"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:id="@+id/textView3" android:layout_gravity="left|center_vertical"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/h" android:layout_gravity="left|center_vertical"
+                    android:inputType="numberDecimal" android:selectAllOnFocus="true"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_weight="0.5">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="H1"
+                    android:id="@+id/textView1" android:layout_gravity="left|center_vertical" android:layout_weight="0.5"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/H1" android:layout_gravity="left|center_vertical"
+                    android:inputType="numberDecimal" android:layout_weight="0.5" android:selectAllOnFocus="true"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h1"
+                    android:id="@+id/textView2" android:layout_gravity="left|center_vertical"/>
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/h1" android:layout_gravity="left|center_vertical"
+                    android:inputType="numberDecimal" android:selectAllOnFocus="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Y1 = 0"
+            android:id="@+id/y1" android:layout_gravity="left|center_vertical" android:textStyle="bold"
+            android:textSize="25dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Y2 = 0"
+            android:id="@+id/y2" android:layout_gravity="left|center_vertical" android:textStyle="bold"
+            android:textSize="25dp"/>
+</LinearLayout>
+
